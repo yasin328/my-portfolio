@@ -5,33 +5,39 @@
 }
 
 body {
-  background-color: #f9fafb;
+  
+   background-image: linear-gradient(to right, #fbc2eb, #a6c1ee);
+  background-attachment: fixed;
+  background-size: cover;
   color: #333;
   line-height: 1.6;
 }
 
 /* Navbar */
 .navbar {
-  background-color: #4f46e5;
-  color: white;
+   background: linear-gradient(to right, #fbc2ebcc, #a6c1eecc);
+  color: #333;
   text-align: center;
   padding: 20px 0;
+   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  
 }
 .border{
   border: 2px solid transparent;
 }
 .border:hover{
-  border: 2px solid white;
+  border: 3px solid rgb(30, 29, 6);
   border-radius: 5px;
   
 }
 
 .navbar h1 {
+   color:#222; 
   margin-bottom: 10px;
 }
 
-.navbar nav a {
-  color: white;
+.navbar a {
+  color: #333;
   margin: 0 15px;
   text-decoration: none;
   font-weight: bold;
@@ -42,7 +48,8 @@ body {
 
 /* Sections */
 section {
-  background-color: white;
+   background-image: url('https://www.transparenttextures.com/patterns/cubes.png'), linear-gradient(to right, #8ec5fc, #e0c3fc);
+  background-blend-mode: overlay;
   margin: 30px auto;
   padding: 25px;
   max-width: 800px;
